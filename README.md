@@ -8,7 +8,7 @@ How to build a WPF app & WinForms app with CMake in .NET 6+
 mkdir build && cd build
 cmake ..
 
-# Build and restore NuGet packages needed to build (
+# Build and restore NuGet packages needed to build 
 cmake --build . -- -r
 
 ```

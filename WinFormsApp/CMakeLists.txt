@@ -11,6 +11,8 @@ add_executable(WinFormsApp
 
 set_property(SOURCE App.xaml PROPERTY VS_XAML_TYPE "ApplicationDefinition")
 
+SET_PROPERTY(TARGET WinFormsApp PROPERTY VS_PACKAGE_REFERENCES "Serilog_2.9.0;Serilog.Sinks.Console_3.1.1")
+
 target_compile_options(WinFormsApp PRIVATE "/langversion:latest")
 
 set_target_properties(WinFormsApp PROPERTIES

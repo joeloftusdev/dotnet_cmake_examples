@@ -1,0 +1,81 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{448F456F-0168-34F2-998F-F6507267BB80}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <ManagedAssembly>true</ManagedAssembly>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <OutputPath>C:\dev\projects\dotnet6_cmake\build\WinFormsApp\Debug\</OutputPath>
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <LangVersion>latest</LangVersion>
+    <Optimize>false</Optimize>
+    <Platform>x64</Platform>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <OutputPath>C:\dev\projects\dotnet6_cmake\build\WinFormsApp\Release\</OutputPath>
+    <DebugType>none</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>queue</ErrorReport>
+    <LangVersion>latest</LangVersion>
+    <Optimize>true</Optimize>
+    <Platform>x64</Platform>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MinSizeRel'">
+    <OutputPath>C:\dev\projects\dotnet6_cmake\build\WinFormsApp\MinSizeRel\</OutputPath>
+    <DebugType>none</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+    <LangVersion>latest</LangVersion>
+    <Optimize>true</Optimize>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'RelWithDebInfo'">
+    <OutputPath>C:\dev\projects\dotnet6_cmake\build\WinFormsApp\RelWithDebInfo\</OutputPath>
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+    <LangVersion>latest</LangVersion>
+    <Optimize>false</Optimize>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="C:\dev\projects\dotnet6_cmake\WinFormsApp\Form1.cs">
+      <Link>Form1.cs</Link>
+    </Compile>
+    <Compile Include="C:\dev\projects\dotnet6_cmake\WinFormsApp\Form1.Designer.cs">
+      <Link>Form1.Designer.cs</Link>
+    </Compile>
+    <Compile Include="C:\dev\projects\dotnet6_cmake\WinFormsApp\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="C:\dev\projects\dotnet6_cmake\WinFormsApp\Form1.resx">
+      <Link>Form1.resx</Link>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\projects\dotnet6_cmake\build\ZERO_CHECK.vcxproj">
+      <Project>{7702FEAA-0001-3C7C-BF0A-1A18A1AF2391}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

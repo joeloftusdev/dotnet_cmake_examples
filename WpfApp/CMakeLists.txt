@@ -12,6 +12,8 @@ add_executable(WpfApp
 
 set_property(SOURCE App.xaml PROPERTY VS_XAML_TYPE "ApplicationDefinition")
 
+SET_PROPERTY(TARGET WpfApp PROPERTY VS_PACKAGE_REFERENCES "Serilog_2.9.0;Serilog.Sinks.Console_3.1.1")
+
 target_compile_options(WpfApp PRIVATE "/langversion:latest")
 
 set_target_properties(WpfApp PROPERTIES

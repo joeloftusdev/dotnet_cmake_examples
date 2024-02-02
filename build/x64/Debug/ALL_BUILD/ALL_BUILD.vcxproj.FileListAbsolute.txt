@@ -1,0 +1,1 @@
+C:\dev\projects\dotnet6_cmake\build\x64\Debug\ALL_BUILD\ALL_BUILD.vcxproj.AssemblyReference.cache

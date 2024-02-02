@@ -1,6 +1,0 @@
-C:/dev/projects/dotnet6_cmake/build/CMakeFiles/ALL_BUILD.dir
-C:/dev/projects/dotnet6_cmake/build/CMakeFiles/ZERO_CHECK.dir
-C:/dev/projects/dotnet6_cmake/build/WpfApp/CMakeFiles/WpfApp.dir
-C:/dev/projects/dotnet6_cmake/build/WpfApp/CMakeFiles/ALL_BUILD.dir
-C:/dev/projects/dotnet6_cmake/build/WinFormsApp/CMakeFiles/WinFormsApp.dir
-C:/dev/projects/dotnet6_cmake/build/WinFormsApp/CMakeFiles/ALL_BUILD.dir

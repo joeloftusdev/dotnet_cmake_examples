@@ -1,6 +1,0 @@
-C:\dev\projects\dotnet6_cmake\build\CMakeFiles\3.28.1\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.AssemblyReference.cache
-C:\dev\projects\dotnet6_cmake\build\CMakeFiles\3.28.1\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.CoreCompileInputs.cache
-C:\dev\projects\dotnet6_cmake\build\CMakeFiles\3.28.1\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe
-C:\dev\projects\dotnet6_cmake\build\CMakeFiles\3.28.1\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb
-C:\dev\projects\dotnet6_cmake\build\CMakeFiles\3.28.1\CompilerIdCSharp\CompilerIdCSharp.exe
-C:\dev\projects\dotnet6_cmake\build\CMakeFiles\3.28.1\CompilerIdCSharp\CompilerIdCSharp.pdb

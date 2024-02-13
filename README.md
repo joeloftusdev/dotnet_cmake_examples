@@ -1,6 +1,6 @@
 ## C# With CMake Example
 
-How to build a WPF app & WinForms app with CMake in .NET 6+
+How to build a WPF app & WinForms app with CMake in .NET 5+
 
 ## Build
 ```
